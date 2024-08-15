@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, cursive;
+    background-color: #e6e6dd;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'pacifico', cursive;
+    font-size: 4em;
+    color: #262626;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+
+.text {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px;
+}
+.container {
+    width: 500px;
+    height: 450px;
+    background-color: rgb(249, 252, 255);
+    margin-left: 430px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.email {
+    margin-top: 40px;
+    border-radius: 3px;
+    border: #241f1f;
+    width: 350px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid #9c9c9c;
+   
+}
+
+@media (min-width: 400px) and (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .titulo{
+        font-size: 2em;
+        text-align: center;
+    }    
+
+    .container{
+        text-align: center;
+        width: 300px;
+        height: 350px;
+    }
+
+}
